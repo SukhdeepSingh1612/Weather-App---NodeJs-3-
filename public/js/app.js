@@ -9,7 +9,7 @@ const messageTwo = document.querySelector('#mesg2');
 
 
 
-//messageOne.textContent = 'From JavaScript';
+messageOne.textContent = 'From JavaScript';
 
 weatherForm.addEventListener('submit', (e) =>{
     e.preventDefault()
